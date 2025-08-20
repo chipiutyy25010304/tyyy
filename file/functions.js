@@ -55,6 +55,6 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "ngày thứ <span class=\"digit\">" + days + "</span> giờ thứ <span class=\"digit\">" + hours + "</span> phút thứ <span class=\"digit\">" + minutes + "</span> giây thứ <span class=\"digit\">" + seconds + "</span> bên e"; 
+	var result =  "<span class=\"digit\">" + days + "ngày <span class=\"digit\">" + hours + "</span> giờ <span class=\"digit\">" + minutes + "</span> phút <span class=\"digit\">" + seconds + "</span> giây thứ <span class=\"digit\">"; 
 	$("#clock").html(result);
 }
